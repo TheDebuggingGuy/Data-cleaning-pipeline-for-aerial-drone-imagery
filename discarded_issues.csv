@@ -1,0 +1,10 @@
+image,issue
+img_007.jpg,"malformed_line_2 (expected 5 fields, got 4)"
+img_007.jpg,invalid_class_id_99_line_4
+img_009.jpg,"malformed_line_0 (expected 5 fields, got 4)"
+img_009.jpg,invalid_class_id_99_line_1
+img_011.jpg,"malformed_line_5 (expected 5 fields, got 4)"
+img_020.jpg,out_of_range_bbox_line_2
+img_023.jpg,"malformed_line_2 (expected 5 fields, got 4)"
+img_025.jpg,missing_label_file
+img_026.jpg,missing_label_file
