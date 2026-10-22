@@ -14,20 +14,12 @@ summary statistics and visualizations.
    log of everything discarded (`discarded_issues.csv`)
 5. **Visualizes** class distribution and bounding box size distribution
 
-## Why this matters
-Real-world drone datasets are rarely clean — corrupted annotation files,
-mislabeled classes, and missing files are common. This pipeline demonstrates
-handling that messiness in a structured, auditable way rather than just
-running everything through a model and hoping for the best.
+
 
 ## Running it
 ```bash
 python3 parse_drone_annotations.py
 ```
-
-By default it runs in **DEMO MODE**, generating a small synthetic sample
-dataset (with intentionally corrupted entries) so you can see the full
-pipeline work without downloading anything.
 
 ## Using it on a real dataset
 1. Download a dataset such as:
